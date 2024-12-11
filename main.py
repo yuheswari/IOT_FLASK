@@ -5,7 +5,7 @@ basename = '/iotcloud'
 
 @app.route('/hello')
 def hello_world():
-   return "<h1>MANU SORRY</h1>"
+   return "<h1>HEELO</h1>"
 @app.route(basename+'/whoami')
 def whoami():
     return os.popen('whoami').read()
